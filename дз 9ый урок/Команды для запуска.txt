@@ -1,0 +1,3 @@
+uvicorn model_application:app --reload  # Запуск сервера с моделью
+docker build -t model_application  # Для создания образа
+docker run model_application  # Для запуска приложения и докера
